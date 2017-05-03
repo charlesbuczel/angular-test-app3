@@ -54,6 +54,14 @@ button {
   cursor: pointer;
   cursor: hand;
 }
+button.delete {
+  float:right;
+  margin-top: 2px;
+  margin-right: .8em;
+  background-color: gray !important;
+  color:white;
+}
+
 button:hover {
   background-color: #cfd8dc;
 }
